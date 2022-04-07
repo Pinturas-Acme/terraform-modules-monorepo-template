@@ -32,7 +32,11 @@ module.exports = {
     { value: 'WIP', name: 'WIP:      Work in progress' },
   ],
 
-  scopes: [{ name: '@tfm/tfm-scripts' }, { name: '@tfm/tfm-build-tools' }],
+  scopes: [
+    { name: '@tfm/tfm-scripts' },
+    { name: '@tfm/tfm-build-tools' },
+    { name: '@tfm/tfm-create-release' },
+  ],
 
   allowTicketNumber: true,
   isTicketNumberRequired: false,

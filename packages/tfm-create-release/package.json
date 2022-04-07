@@ -1,0 +1,29 @@
+{
+  "name": "@tfm/tfm-create-release",
+  "version": "1.0.0-alpha.0",
+  "description": "Create terraform modules release lifecycle",
+  "author": "Antonio <amarquez1980@gmail.com>",
+  "homepage": "https://github.com/antoniomperez/terraform-modules-monorepo-template#readme",
+  "license": "MIT",
+  "main": "lib/tfm-create-release.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoniomperez/terraform-modules-monorepo-template.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/antoniomperez/terraform-modules-monorepo-template/issues"
+  }
+}
