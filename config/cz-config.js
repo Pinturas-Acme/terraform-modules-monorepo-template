@@ -32,7 +32,7 @@ module.exports = {
     { value: 'WIP', name: 'WIP:      Work in progress' },
   ],
 
-  scopes: [{ name: '@tfm/yarn tfm-scripts' }],
+  scopes: [{ name: '@tfm/tfm-scripts' }, { name: '@tfm/tfm-build-tools' }],
 
   allowTicketNumber: true,
   isTicketNumberRequired: false,
