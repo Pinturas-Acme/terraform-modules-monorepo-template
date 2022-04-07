@@ -13,11 +13,13 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@types/node": "^17.0.23",
     "cz-conventional-changelog": "3.3.0",
     "cz-customizable": "^6.3.0",
     "husky": "^7.0.0",
     "lerna": "^4.0.0",
-    "standard-version": "^9.3.2"
+    "standard-version": "^9.3.2",
+    "typescript": "^4.6.3"
   },
   "config": {
     "cz-customizable": {
